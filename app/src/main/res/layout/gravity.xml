@@ -21,4 +21,29 @@
         android:id="@+id/button6"
         android:layout_gravity="right"
         android:text="right"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="left"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="right"/>
+
 </LinearLayout>
