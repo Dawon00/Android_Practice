@@ -26,7 +26,7 @@ public class LayoutCodeActivity extends AppCompatActivity {
         button1.setLayoutParams(params);
         mainLayout.addView(button1);
 
-        setContentView(R.layout.activity_main);//새로 만든 레이아웃을 화면에 설정
+        setContentView(mainLayout);//새로 만든 레이아웃을 화면에 설정
     }
 
 
